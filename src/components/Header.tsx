@@ -26,7 +26,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <button className={"px-6 py-2 bg-[#5476FC] text-white rounded-2xl"}>
+        <button className={"px-6 py-2 bg-point text-white rounded-2xl"}>
           Contact
         </button>
       </div>
