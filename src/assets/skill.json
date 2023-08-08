@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "title": "Web",
+      "itemList": [
+        {
+          "name": "JavaScript(ES6)",
+          "isImportant": true
+        },
+        {
+          "name": "TypeScript",
+          "isImportant": true
+        },
+        {
+          "name": "Next.js",
+          "isImportant": true
+        },
+        {
+          "name": "React.js",
+          "isImportant": true
+        },
+        {
+          "name": "jotai",
+          "isImportant": false
+        },
+        {
+          "name": "jQuery",
+          "isImportant": false
+        },
+        {
+          "name": "Tailwind CSS",
+          "isImportant": true
+        },
+        {
+          "name": "Sass",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "itemList": [
+        {
+          "name": "Firebase",
+          "isImportant": true
+        },
+        {
+          "name": "Node.js",
+          "isImportant": false
+        },
+        {
+          "name": "Java Spring",
+          "isImportant": false
+        },
+        {
+          "name": "django",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "Mobile App",
+      "itemList": [
+        {
+          "name": "Flutter",
+          "isImportant": true
+        },
+        {
+          "name": "React Native",
+          "isImportant": true
+        },
+        {
+          "name": "Android(Java, Kotlin)",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "3D",
+      "itemList": [
+        {
+          "name": "Unity",
+          "isImportant": true
+        },
+        {
+          "name": "Unreal",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "Standalone",
+      "itemList": [
+        {
+          "name": "Electron.js",
+          "isImportant": false
+        },
+        {
+          "name": ".NET(C#)",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "Deployment & Work",
+      "itemList": [
+        {
+          "name": "Firebase",
+          "isImportant": true
+        },
+        {
+          "name": "Vercel",
+          "isImportant": true
+        },
+        {
+          "name": "AWS EC2",
+          "isImportant": false
+        },
+        {
+          "name": "Git",
+          "isImportant": true
+        },
+        {
+          "name": "Jira & Confluence",
+          "isImportant": true
+        },
+        {
+          "name": "Figma",
+          "isImportant": false
+        }
+      ]
+    },
+    {
+      "title": "Certificate",
+      "itemList": [
+        {
+          "name": "컴퓨터그래픽스운용기능사",
+          "isImportant": false
+        },
+        {
+          "name": "ITQ(Excel, Powerpoint, 한글)",
+          "isImportant": false
+        }
+      ]
+    }
+  ]
+}
