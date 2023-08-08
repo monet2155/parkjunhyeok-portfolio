@@ -39,6 +39,7 @@ export default function Summary() {
             "Next.js, React.js 웹 서비스 개발 및 운영",
             "Flutter 앱 개발",
             "React Native 앱 개발",
+            "Android 앱 개발",
           ]}
         />
         <SummaryItem
