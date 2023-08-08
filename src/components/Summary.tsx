@@ -11,7 +11,7 @@ function SummaryItem({
         "bg-white w-[400px] text-black p-6 rounded-2xl flex flex-col items-center gap-4 shadow-lg"
       }
     >
-      <div className={"font-medium text-lg"}>{title}</div>
+      <div className={"font-bold text-lg text-point"}>{title}</div>
       <ul className={"w-full flex flex-col gap-2"}>
         {itemList.map((ele) => (
           <li key={ele}> • {ele}</li>
