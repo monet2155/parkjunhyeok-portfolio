@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header
       className={
-        "flex flex-row items-center justify-between fixed top-0 left-0 right-0 py-4 px-6"
+        "flex flex-row items-center justify-between fixed top-0 left-0 right-0 py-4 px-6 bg-white"
       }
     >
       <a className={"font-bold text-xl"}>Park Jun Hyeok&apos;s Portfolio</a>
