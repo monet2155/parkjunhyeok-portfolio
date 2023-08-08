@@ -12,11 +12,15 @@ function ProfileItem({ title, value }: { title: string; value: string }) {
 
 export default function Profile() {
   return (
-    <section className={"flex flex-row items-center justify-evenly py-10"}>
+    <section
+      className={
+        "flex flex-row max-md:flex-col items-center justify-evenly py-10"
+      }
+    >
       <Image
         src={ProfileImagePng}
         alt={"profile image"}
-        className={"max-w-[300px] w-[30%] rounded-full"}
+        className={"max-w-[300px]  rounded-full"}
       />
       <section>
         <table>
