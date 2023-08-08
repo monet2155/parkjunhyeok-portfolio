@@ -10,13 +10,13 @@ export default function Header() {
         <nav className={"max-md:hidden"}>
           <ul className={"flex flex-row items-center gap-4"}>
             <li>
-              <a>Summary</a>
-            </li>
-            <li>
-              <a>Career</a>
+              <a>Profile</a>
             </li>
             <li>
               <a>Skill</a>
+            </li>
+            <li>
+              <a>Career</a>
             </li>
             <li>
               <a>Education</a>
