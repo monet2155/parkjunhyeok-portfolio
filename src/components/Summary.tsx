@@ -8,7 +8,7 @@ function SummaryItem({
   return (
     <li
       className={
-        "bg-white w-[400px] text-black p-6 rounded-2xl flex flex-col items-center gap-4"
+        "bg-white w-[400px] text-black p-6 rounded-2xl flex flex-col items-center gap-4 shadow-lg"
       }
     >
       <div className={"font-medium text-lg"}>{title}</div>
