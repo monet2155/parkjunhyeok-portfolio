@@ -12,11 +12,11 @@ function SummaryItem({
       }
     >
       <div className={"font-medium text-lg"}>{title}</div>
-      <div className={"w-full flex flex-col gap-2"}>
+      <ul className={"w-full flex flex-col gap-2"}>
         {itemList.map((ele) => (
-          <div key={ele}> • {ele}</div>
+          <li key={ele}> • {ele}</li>
         ))}
-      </div>
+      </ul>
     </li>
   );
 }
