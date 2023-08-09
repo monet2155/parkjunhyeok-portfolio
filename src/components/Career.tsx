@@ -21,13 +21,13 @@ function CareerCard(career: CareerType) {
   return (
     <li
       className={
-        "flex flex-row bg-white p-12 rounded-2xl max-w-[1000px] w-full gap-12"
+        "flex flex-row bg-white p-12 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
       }
     >
       <section className={"min-w-[180px]"}>
-        <h2 className={"text-2xl font-bold break-keep"}>{career.company}</h2>
+        <h2 className={"text-2xl font-bold "}>{career.company}</h2>
         <h3 className={"whitespace-pre-wrap"}>{career.position}</h3>
-        <h3 className={"text-gray-500 break-keep"}>
+        <h3 className={"text-gray-500 "}>
           {career.startDate} ~ {career.endDate ?? "현재 재직 중"}
         </h3>
       </section>
@@ -40,7 +40,7 @@ function CareerCard(career: CareerType) {
             }
           >
             <h3 className={"text-lg font-medium"}>{ele.title}</h3>
-            <h4 className={"text-gray-500 break-keep"}>
+            <h4 className={"text-gray-500 "}>
               {ele.startDate} ~ {ele.endDate ?? "현재"}
             </h4>
             <div className={"mt-2 whitespace-pre-wrap"}>{ele.summary}</div>

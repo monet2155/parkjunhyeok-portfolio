@@ -19,9 +19,6 @@ export default function Header() {
               <a>Career</a>
             </li>
             <li>
-              <a>Education</a>
-            </li>
-            <li>
               <a>Etc</a>
             </li>
           </ul>
