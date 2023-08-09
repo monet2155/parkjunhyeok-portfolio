@@ -65,7 +65,7 @@ function CareerCard(career: CareerType) {
 
 export default function Career() {
   return (
-    <section className={"py-12 bg-gray-100"}>
+    <section className={"py-12 bg-gray-100"} id={"career-section"}>
       <h1 className={"text-center text-black font-bold text-3xl"}>Career</h1>
       <ul className={"flex flex-col px-8 mt-10 items-center gap-8"}>
         {CareerList.data.map((ele) => (

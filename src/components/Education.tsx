@@ -2,7 +2,7 @@ import CareerList from "@/assets/career.json";
 
 export default function Education() {
   return (
-    <section className={"py-12 bg-white "}>
+    <section className={"py-12 bg-white "} id={"education-section"}>
       <h1 className={"text-center text-black font-bold text-3xl"}>Education</h1>
       <ul className={"flex flex-col px-8 mt-10 items-center gap-8"}>
         <li

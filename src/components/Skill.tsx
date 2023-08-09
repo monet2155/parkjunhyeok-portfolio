@@ -33,7 +33,7 @@ function SkillItem({
 
 export default function Skill() {
   return (
-    <section className={"py-12"}>
+    <section className={"py-12"} id={"skill-section"}>
       <h1 className={"text-center font-bold text-3xl "}>Skill</h1>
       <section className={" mt-8 mx-[5%] xl:mx-[10%] 2xl:mx-[15%]"}>
         <ul className={"gap-8 masonry lg:columns-3 md:columns-2 columns-1 "}>

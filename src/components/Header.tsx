@@ -1,4 +1,34 @@
+"use client";
+
 export default function Header() {
+  const onClickProfile = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const onClickSkill = () => {
+    const content = document.getElementById("skill-section");
+    if (!content) return;
+    const scrollToY = content.offsetTop - 72;
+
+    window.scrollTo({ top: scrollToY, behavior: "smooth" });
+  };
+
+  const onClickCareer = () => {
+    const content = document.getElementById("career-section");
+    if (!content) return;
+    const scrollToY = content.offsetTop - 72;
+
+    window.scrollTo({ top: scrollToY, behavior: "smooth" });
+  };
+
+  const onClickEducation = () => {
+    const content = document.getElementById("education-section");
+    if (!content) return;
+    const scrollToY = content.offsetTop - 72;
+
+    window.scrollTo({ top: scrollToY, behavior: "smooth" });
+  };
+
   return (
     <header
       className={
@@ -10,16 +40,16 @@ export default function Header() {
         <nav className={"max-md:hidden"}>
           <ul className={"flex flex-row items-center gap-4"}>
             <li>
-              <a>Profile</a>
+              <button onClick={onClickProfile}>Profile</button>
             </li>
             <li>
-              <a>Skill</a>
+              <button onClick={onClickSkill}>Skill</button>
             </li>
             <li>
-              <a>Career</a>
+              <button onClick={onClickCareer}>Career</button>
             </li>
             <li>
-              <a>Etc</a>
+              <button onClick={onClickEducation}>Etc</button>
             </li>
           </ul>
         </nav>
