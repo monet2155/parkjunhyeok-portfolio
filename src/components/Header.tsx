@@ -53,9 +53,12 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <button className={"px-6 py-2 bg-point text-white rounded-2xl"}>
+        <a
+          className={"px-6 py-2 bg-point text-white rounded-2xl"}
+          href={"mailto:monet9812@gmail.com"}
+        >
           Contact
-        </button>
+        </a>
       </div>
     </header>
   );
