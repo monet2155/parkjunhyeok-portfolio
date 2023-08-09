@@ -6,6 +6,7 @@ import Career from "@/components/Career";
 import Education from "@/components/Education";
 import Award from "@/components/Award";
 import Footer from "@/components/Footer";
+import FloatingButton from "@/components/FloatingButton";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Education />
       <Award />
       <Footer />
+      <FloatingButton />
     </main>
   );
 }
