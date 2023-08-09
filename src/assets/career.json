@@ -1,0 +1,202 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "company": "빅웨이브로보틱스",
+      "startDate": "2022.08",
+      "endDate": null,
+      "position": "SW엔지니어",
+      "projectList": [
+        {
+          "title": "로봇 통합 플랫폼 '마로솔' 프론트엔드 개발",
+          "startDate": "2022.12",
+          "endDate": null,
+          "summary": "Python Django로 개발된 웹 서비스를 Next.js로 마이그레이션 및 각종 컴포넌트 개발, 운영",
+          "performance": "Performance 약 180% 향상",
+          "usingTech": [
+            "Next.js",
+            "Firebase",
+            "Tailwind CSS",
+            "Jotai",
+            "Storybook",
+            "Vercel"
+          ],
+          "url": "https://myrobotsolution.com"
+        },
+        {
+          "title": "'마로솔' UI/UX 개선 및 기능 개발",
+          "startDate": "2022.08",
+          "endDate": "2022.12",
+          "summary": "A/B 테스트, 데이터 트래킹을 통한 UI/UX 개선",
+          "performance": "헤더 메뉴 개선으로 스토어 카테고리 버튼 클릭률 128% 향상",
+          "usingTech": [
+            "Python Django",
+            "jquery",
+            "Hackle"
+          ],
+          "url": null
+        },
+        {
+          "title": "안내로봇 앱 개발",
+          "startDate": "2023.01",
+          "endDate": "2023.03",
+          "summary": "안내 로봇 화면 및 동작 제어 앱 개발",
+          "performance": "기획부터 참여하여 실제 판매 발생, Observer 패턴/State 패턴 적용",
+          "usingTech": [
+            "Flutter",
+            "RobotSDK(Android)",
+            "Firebase",
+            "Agora(Video Call)"
+          ],
+          "url": "https://www.myrobotsolution.com/store/detail/15751"
+        },
+        {
+          "title": "안내로봇 활용 코딩교육 개발",
+          "startDate": "2023.05",
+          "endDate": "2023.06",
+          "summary": "안내로봇과 EntryJS 오픈소스를 활용한 블럭코딩 기능 개발",
+          "performance": "전남교육물품박람회 출품",
+          "usingTech": [
+            "Flutter",
+            "Bluetooth",
+            "EntryJS"
+          ],
+          "url": "https://news.mt.co.kr/mtview.php?no=2023070315493825319"
+        },
+        {
+          "title": "로봇 통합 관제 시스템 '솔링크' 개발",
+          "startDate": "2022.10",
+          "endDate": "2023.02",
+          "summary": "로봇의 위치, 상태를 3D 공간에 나타내고, 제어하는 관제 시스템 개발",
+          "performance": "서비스 출시 후 시리즈A 투자, 2023 SFAW 출품",
+          "usingTech": [
+            "Unity",
+            "React.js",
+            "Socket"
+          ],
+          "url": "https://youtu.be/LWCrwyVZzxY"
+        },
+        {
+          "title": "PoC 개발",
+          "startDate": "2022.10",
+          "endDate": null,
+          "summary": "- Python 활용 업무 자동화 PoC\n- Open AI API 활용 챗봇 PoC",
+          "performance": null,
+          "usingTech": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "company": "로망난녀석들",
+      "startDate": "2021.03",
+      "endDate": "2022.08",
+      "position": "Founder",
+      "projectList": [
+        {
+          "title": "사업 운영 및 기획",
+          "startDate": "2021.03",
+          "endDate": "2022.08",
+          "summary": "서비스 기획 및 설계, 사업계획서 작성, 세무 및 경영 등 사업 운영\n메타버스 및 VR 채팅 솔루션 기획\n- 2022 서울시 캠퍼스타운 스타트업볼트 프로젝트 최종 선발\n- 2021 서울시 캠퍼스타운 미디어커머스형 청년 창업 프로그램 3등상",
+          "performance": null,
+          "usingTech": null,
+          "url": null
+        },
+        {
+          "title": "국방과학연구소 스마트캐비닛 소프트웨어 개발",
+          "startDate": "2021.03",
+          "endDate": "2022.08",
+          "summary": "RFID 태그로 작동하는 보안 캐비닛 제어 소프트웨어 개발",
+          "performance": "국방과학연구소 납품",
+          "usingTech": [
+            "C#(.NET)",
+            "RFID",
+            "React.js",
+            "Node.js",
+            "Socket"
+          ],
+          "url": null
+        },
+        {
+          "title": "웹/앱 소프트웨어 개발 및 납품",
+          "startDate": "2021.03",
+          "endDate": "2022.08",
+          "summary": "클라이언트 요구사항에 맞는 응용 소프트웨어 개발\n- React.js 활용 입시 예측 웹 서비스, Admin 등 개발\n- React Native, Android(Java) 활용 해외 커뮤니티, 쇼핑 정보 관리 앱 개발",
+          "performance": null,
+          "usingTech": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "푸텍",
+      "startDate": "2021.01",
+      "endDate": "2021.02",
+      "position": "SW엔지니어\n(프로젝트 단위 계약)",
+      "projectList": [
+        {
+          "title": "RFID 출퇴근 관리 소프트웨어 개발",
+          "startDate": "2021.01",
+          "endDate": "2021.02",
+          "summary": "사원증 태그로 출퇴근 장부 기입 및 관리 소프트웨어 개발",
+          "performance": null,
+          "usingTech": [
+            "C#",
+            "RS232",
+            "Socket",
+            "React.js(Admin)"
+          ],
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "에이라이프",
+      "startDate": "2020.08",
+      "endDate": "2020.12",
+      "position": "SW엔지니어",
+      "projectList": [
+        {
+          "title": "로컬푸드 마켓 앱 '강마켓' 개발",
+          "startDate": "2020.08",
+          "endDate": "2020.10",
+          "summary": "상품 목록, 장바구니 등 커머스 앱 서비스 개발\nRFID 스마트 냉장고 소프트웨어 개발 및 앱과 연동",
+          "performance": "정부지원사업 완료",
+          "usingTech": [
+            "Android(Java)",
+            "Retrofit",
+            "C#"
+          ],
+          "url": null
+        },
+        {
+          "title": "농산물 공동구매 플랫폼 앱 '강마켓 - 공동구매' 개발",
+          "startDate": "2020.10",
+          "endDate": "2020.12",
+          "summary": "공동구매 서비스 설계 및 개발",
+          "performance": null,
+          "usingTech": [
+            "React Native",
+            "StyleSheet"
+          ],
+          "url": null
+        },
+        {
+          "title": "센서기반 계란 자동 주문 앱 '너란나란' 개발",
+          "startDate": "2020.10",
+          "endDate": "2020.12",
+          "summary": "계란 트레이의 센서 데이터 활용 계란 자동 주문 앱 서비스 개발",
+          "performance": null,
+          "usingTech": [
+            "Android",
+            "Bluetooth LE"
+          ],
+          "url": null
+        }
+      ]
+    }
+  ]
+}
