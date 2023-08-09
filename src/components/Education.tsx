@@ -1,5 +1,3 @@
-import CareerList from "@/assets/career.json";
-
 export default function Education() {
   return (
     <section className={"py-12 bg-white "} id={"education-section"}>
