@@ -21,7 +21,7 @@ function CareerCard(career: CareerType) {
   return (
     <li
       className={
-        "flex flex-row bg-white p-12 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
+        "flex flex-row bg-white max-sm:flex-col p-12 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
       }
     >
       <section className={"min-w-[180px]"}>
@@ -51,7 +51,7 @@ function CareerCard(career: CareerType) {
             {ele.url && (
               <div>
                 - 링크 :{" "}
-                <a href={ele.url} className={"underline"}>
+                <a href={ele.url} className={"underline break-all"}>
                   {ele.url}
                 </a>
               </div>

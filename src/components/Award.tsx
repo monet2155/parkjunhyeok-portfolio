@@ -5,7 +5,7 @@ export default function Award() {
       <ul className={"flex flex-col px-8 mt-10 items-center gap-8"}>
         <li
           className={
-            "flex flex-row bg-white p-8 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
+            "flex flex-row max-sm:flex-col bg-white p-8 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
           }
         >
           <section className={"min-w-[180px]"}>
@@ -22,7 +22,7 @@ export default function Award() {
         </li>
         <li
           className={
-            "flex flex-row bg-white p-8 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
+            "flex flex-row max-sm:flex-col bg-white p-8 rounded-2xl max-w-[1000px] w-full gap-12 sm:overflow-auto"
           }
         >
           <section className={"min-w-[180px]"}>

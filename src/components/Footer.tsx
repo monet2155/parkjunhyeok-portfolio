@@ -20,7 +20,7 @@ export default function Footer() {
           <Image src={LinkedInLogoPng} alt={"linkedin logo"} />
         </a>
       </div>
-      <span className={"text-white"}>
+      <span className={"text-white text-center"}>
         © 2023. Park Jun Hyeok. All rights reserved.
       </span>
     </footer>

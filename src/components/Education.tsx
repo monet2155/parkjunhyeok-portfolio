@@ -5,7 +5,7 @@ export default function Education() {
       <ul className={"flex flex-col px-8 mt-10 items-center gap-8"}>
         <li
           className={
-            "flex flex-row bg-white max-w-[1000px] w-full gap-12 sm:overflow-auto border p-10 rounded-2xl shadow-lg"
+            "flex flex-row max-sm:flex-col bg-white max-w-[1000px] w-full gap-12 sm:overflow-auto border p-10 rounded-2xl shadow-lg"
           }
         >
           <section className={"min-w-[200px]"}>
@@ -19,7 +19,7 @@ export default function Education() {
         </li>
         <li
           className={
-            "flex flex-row bg-white max-w-[1000px] w-full gap-12 sm:overflow-auto border p-10 rounded-2xl shadow-lg"
+            "flex flex-row max-sm:flex-col bg-white max-w-[1000px] w-full gap-12 sm:overflow-auto border p-10 rounded-2xl shadow-lg"
           }
         >
           <section className={"min-w-[200px]"}>
