@@ -5,6 +5,7 @@ import Skill from "@/components/Skill";
 import Career from "@/components/Career";
 import Education from "@/components/Education";
 import Award from "@/components/Award";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Career />
       <Education />
       <Award />
+      <Footer />
     </main>
   );
 }
