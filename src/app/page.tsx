@@ -4,6 +4,7 @@ import Summary from "@/components/Summary";
 import Skill from "@/components/Skill";
 import Career from "@/components/Career";
 import Education from "@/components/Education";
+import Award from "@/components/Award";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Skill />
       <Career />
       <Education />
+      <Award />
     </main>
   );
 }

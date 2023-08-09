@@ -15,12 +15,9 @@ export default function Education() {
             <h3 className={"whitespace-pre-wrap"}>{"소프트웨어공학과 학사"}</h3>
             <h3 className={"text-gray-500 "}>2023.03 ~ 현재 재학 중</h3>
           </section>
-          <ul className={"flex flex-col"}>
-            <li className={"whitespace-pre-wrap"}>
-              {`- .NET프로그래밍, Unity, OpenGL 과목 이수\n- 인공지능 과목 이수`}
-            </li>
-            <li className={"whitespace-pre-wrap"}></li>
-          </ul>
+          <div className={"whitespace-pre-wrap"}>
+            {`- .NET프로그래밍, Unity, OpenGL 과목 이수\n- 인공지능 과목 이수`}
+          </div>
         </li>
         <li
           className={
@@ -34,13 +31,11 @@ export default function Education() {
             </h3>
             <h3 className={"text-gray-500 "}>2017.03 ~ 2021.02</h3>
           </section>
-          <ul className={"flex flex-col"}>
-            <li className={"whitespace-pre-wrap"}>
-              {`졸업 학점 4.0/4.5\n- Unity, Unreal 활용 실감형 콘텐츠, 게임개발 과목 이수
+          <div className={"whitespace-pre-wrap"}>
+            {`졸업 학점 4.0/4.5\n- Unity, Unreal 활용 실감형 콘텐츠, 게임개발 과목 이수
 - Android 활용 앱 개발 과목 이수
 - JSP, HTML 활용 웹, 웹 서버 개발 과목 이수`}
-            </li>
-          </ul>
+          </div>
         </li>
       </ul>
     </section>
